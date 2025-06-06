@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anwesha Paul | Academic Profile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f0f4f8;
+      color: #2e2e2e;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    header {
+      background: linear-gradient(to right, #6a82fb, #fd747b);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      width: 100%;
+      max-width: 900px;
+      border-radius: 0 0 20px 20px;
+      box-sizing: border-box;
+    }
+
+    header img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      margin-bottom: 15px;
+    }
+
+    nav {
+      background-color: #4a6fa5;
+      padding: 10px;
+      text-align: center;
+      width: 100%;
+      max-width: 900px;
+      box-sizing: border-box;
+      border-radius: 0 0 20px 20px;
+      user-select: none;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      cursor: pointer;
+      transition: color 0.3s;
+      padding: 6px 12px;
+      border-radius: 12px;
+      display: inline-block;
+    }
+
+    nav a.active, nav a:hover {
+      background-color: #a8d0e6;
+      color: #2e2e2e;
+    }
+
+    section {
+      background-color: white;
+      max-width: 800px;
+      margin: 30px auto 40px;
+      padding: 30px 30px 40px;
+      border-radius: 20px;
+      box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+      box-sizing: border-box;
+      display: none; /* hidden by default */
+      position: relative;
+      min-height: 280px;
+      transition: opacity 0.4s ease-in-out;
+    }
+
+    section.active {
+      display: block;
+      opacity: 1;
+    }
+
+    h2 {
+      border-bottom: 2px solid #c3dafe;
+      padding-bottom: 8px;
+      color: #6c63ff;
+      margin-top: 0;
+      font-weight: 700;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      background-color: #4a6fa5;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: auto;
+      width: 100%;
+      max-width: 900px;
+      box-sizing: border-box;
+      border-radius: 20px 20px 0 0;
+    }
+
+    a {
+      color: #5e81ac;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Arrow keys helper - small arrows top corners */
+    .arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 30px;
+      color: #6c63ff;
+      cursor: pointer;
+      user-select: none;
+      padding: 10px;
+      border-radius: 50%;
+      background: #e6e9fb;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      transition: background-color 0.3s;
+      z-index: 10;
+    }
+
+    .arrow:hover {
+      background-color: #c3dafe;
+    }
+
+    .arrow-left {
+      left: -50px;
+    }
+
+    .arrow-right {
+      right: -50px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="Anwesha_Paul.JPG" alt="Anwesha Paul">
+    <h1>Anwesha Paul</h1>
+    <p>Student | Aspiring Neuroscientist | Science Enthusiast</p>
+  </header>
+
+  <nav>
+    <a href="#about" class="active" data-index="0">About</a>
+    <a href="#education" data-index="1">Education</a>
+    <a href="#interests" data-index="2">Research Interests</a>
+    <a href="#experience" data-index="3">Academic Experience & Awards</a>
+    <a href="#contact" data-index="4">Contact</a>
+  </nav>
+
+  <section id="about" class="active">
+    <span class="arrow arrow-left">&#8592;</span>
+    <span class="arrow arrow-right">&#8594;</span>
+    <h2>About Me</h2>
+    <p>Hello! My name is Anwesha Paul and I am currently a student in the Wayzata School District, transitioning from 8th to 9th grade. Some of my many hobbies include viewing and participating in the fine arts, playing the piano, and competing in tennis tournaments. I am heavily involved in academic competitions regarding Math, Science, and Literature and I plan to pursue medicine.</p>
+  </section>
+
+  <section id="education">
+    <span class="arrow arrow-left">&#8592;</span>
+    <span class="arrow arrow-right">&#8594;</span>
+    <h2>Education</h2>
+    <ul>
+      <li><strong>Wayzata Middle School –</strong> 8th Grade (Current)</li>
+      <li><strong>University of Minnesota Talented Youth Mathematics Program (UMTYMP) –</strong> Precalculus Track
+            *NOTE* (completed Algebra I, Algebra II, Geometry, and Precalculus. Currently transitioning to Calculus I or also known as Calculus AB/BC)
+      </li>
+      <li><strong>KUMON - </strong>four years of Kumon Reading</li>
+      <li><strong>Acedemic Excellence - </strong> 5+ years in the Acedemic Excellence Reading and ACT/SAT Program as well as 2+ years of volunteering.</li>
+    </ul>
+  </section>
+
+  <section id="interests">
+    <span class="arrow arrow-left">&#8592;</span>
+    <span class="arrow arrow-right">&#8594;</span>
+    <h2>Research Interests</h2>
+    <ul>
+      <li>Physical Effects of Mental Disorders</li>
+      <li>Genetic Mutation and Modification</li>
+      <li>MRI and Medical Imaging Techniques</li>
+      <li>STEM Education and Youth Outreach</li>
+    </ul>
+  </section>
+
+  <section id="experience">
+    <span class="arrow arrow-left">&#8592;</span>
+    <span class="arrow arrow-right">&#8594;</span>
+    <h2>Academic Experience & Awards</h2>
+    <ul>
+      <li><strong>Brain Resource Creators:</strong> Created educational content about neuroscience as part of a summer internship</li>
+      <li><strong>Minnesota State Fair Art Awards:</strong> Recognized for acrylic, pencil, and charcoal works in Fine Arts. All artworks ranging from Grand Prize to 3rd Place.</li>
+      <li><strong>Science Bee & Science Bowl Participant:</strong> Represented school in regional and national-level competitions. 1st Place regionally and top 50 Nationally in Science Bee</li>
+      <li><strong>MathCounts & AMC Competitor:</strong> Accepted to participate in the AMC8 and AMC10 as well as the 2nd highest ranked girl at Math Counts Regionals</li>
+      <li><strong>Math League & Math Masters:</strong> Captain for Team 1 in Wayzata Central Math League winning second place regionally. First place team award in Math Masters as well as top 10 Indivisual scorer in all years of participation.</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <span class="arrow arrow-left">&#8592;</span>
+    <span class="arrow arrow-right">&#8594;</span>
+    <h2>Contact</h2>
+    <p><strong>Email:</strong><a href="mailto:anweshapaul2010@gmail.com">anweshapaul2010@gmail.com</a></p>
+    <p>Phone Number <a>(612) 655-0643</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Anwesha Paul. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // JavaScript for tab navigation + arrow key + arrow click
+
+    const tabs = document.querySelectorAll('nav a');
+    const sections = document.querySelectorAll('section');
+    const arrowsLeft = document.querySelectorAll('.arrow-left');
+    const arrowsRight = document.querySelectorAll('.arrow-right');
+
+    let currentIndex = 0;
+
+    function showSection(index) {
+      // Bounds check
+      if (index < 0) index = sections.length - 1;
+      if (index >= sections.length) index = 0;
+
+      currentIndex = index;
+
+      // Update sections
+      sections.forEach((sec, i) => {
+        if (i === index) {
+          sec.classList.add('active');
+        } else {
+          sec.classList.remove('active');
+        }
+      });
+
+      // Update nav active link
+      tabs.forEach((tab, i) => {
+        if (i === index) {
+          tab.classList.add('active');
+        } else {
+          tab.classList.remove('active');
+        }
+      });
+    }
+
+    // Click tabs
+    tabs.forEach(tab => {
+      tab.addEventListener('click', (e) => {
+        e.preventDefault();
+        const index = Number(tab.getAttribute('data-index'));
+        showSection(index);
+      });
+    });
+
+    // Arrow click handlers
+    arrowsLeft.forEach((arrow, i) => {
+      arrow.addEventListener('click', () => {
+        showSection(currentIndex - 1);
+      });
+    });
+
+    arrowsRight.forEach((arrow, i) => {
+      arrow.addEventListener('click', () => {
+        showSection(currentIndex + 1);
+      });
+    });
+
+    // Keyboard navigation with arrow keys
+    window.addEventListener('keydown', e => {
+      if (e.key === 'ArrowLeft') {
+        showSection(currentIndex - 1);
+      } else if (e.key === 'ArrowRight') {
+        showSection(currentIndex + 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
